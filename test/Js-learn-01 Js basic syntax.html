@@ -390,7 +390,17 @@
     }
 
     let myHero = new DotaHero("Sven", "Tank");
-    console.log(myHero.show());
+    console.log(myHero.show()); 
+    
+    const person = {
+  firstName: "John",
+  lastName : "Doe",
+  language : "EN"
+};
+
+// Change a property
+Object.defineProperty(person, "language", {value : "NO"});
+    
   </script>
 </body>
 

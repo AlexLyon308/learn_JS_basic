@@ -306,7 +306,7 @@
 
     testFunction2 = (a, b) => a * b;
 
-    testFunction3 = function(a, b) {
+    testFunction3 = function (a, b) {
       return a - b;
     }
 
@@ -390,17 +390,18 @@
     }
 
     let myHero = new DotaHero("Sven", "Tank");
-    console.log(myHero.show()); 
-    
-    const person = {
-  firstName: "John",
-  lastName : "Doe",
-  language : "EN"
-};
+    console.log(myHero.show());
 
-// Change a property
-Object.defineProperty(person, "language", {value : "NO"});
-    
+    // Change a property
+    const person = {
+      firstName: "John",
+      lastName: "Doe",
+      language: "EN"
+    };
+
+    Object.defineProperty(person, "language", { value: "NO" });
+    Object.defineProperty(person, "firstName", { value: "Cristina" });
+    Object.defineProperty(person, "lastName", { value: "Escusa" });
   </script>
 </body>
 

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Command browser to change to requested link 
+        this.document.location = "https://www.google.com/";
+
+        /* The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors.*/
+        document.querySelector("body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input");
+
+        //When click() is used with supported elements, it fires the element's click event
+        document.querySelector("body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.dRYYxd >div.Umvnrc").click();
+
+        //getElementsByClassName() Returns a collection of child elements with a given class name
+        document.getElementsByClassName("gLFyf gsfi");
+
+        //Returns all child elements that matches a CSS selector(s)
+        document.querySelectorAll("gLFyf gsfi");
+        
+        //getElementsByTagName() Returns a collection of child elements with a given tag name
+        document.getElementsByTagName("script");
+
+        //CSS Selector practice with google.com
+
+        //Input box example
+        body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input
+        
+        div > input[class~="gLFyf"]
+        document.querySelector("div > input[class~=gLFyf]")  
+
+        input[class*="gLFyf"]
+        document.querySelector("input[class*=gLFyf]") 
+
+        //Google offered in 
+
+        #SIvCob 
+        document.querySelector("#SIvCob")
+
+        div[class="vcVZ7d"] div  
+        document.querySelector("div[class=vcVZ7d] div")
+
+        div[id="SIvCob"]
+        document.querySelector("div[id=SIvCob]")
+
+        div.vcVZ7d div
+        document.querySelector("div.vcVZ7d div")
+
+        div#SIvCob
+        document.querySelector("div#SIvCob")
+
+        div.vcVZ7d div#SIvCob 
+        document.querySelector("div.vcVZ7d div#SIvCob")
+
+
+        //Xpath practice with google.com 
+         
+        //Google offered in 
+        
+        /div[@id="SIvCob"]
+
+        //Current country 
+        /html/body/div[1]/div[5]/div[1]
+
+        //div[@class='uU7dJb']
+        /[text() = 'Vietnam'] 
+        /[contains(text(),'Vietnam')] 
+
+
+        //Css Selector with https://dev.amatrium.com/login
+
+        //Email Address
+        document.querySelector("#field-2-label")
+        document.querySelector("label#field-2-label")
+        document.querySelector("[id=field-2-label]")
+        document.querySelector("label[id=field-2-label]")
+        document.querySelector("div label[id=field-2-label]")
+        document.querySelector("div > label[id=field-2-label]")
+        
+        //Account ID input 
+        document.querySelector("#field-2")
+        document.querySelector("input#field-2")
+        document.querySelector("[id=field-2]")
+        document.querySelector("input[id=field-2]")
+        document.querySelector("div input[id=field-2]")
+        document.querySelector("div > input[id=field-2]")
+
+        //Login button 
+        document.querySelector("form[action='#'] button")
+        document.querySelector("button[class='chakra-button css-mx6vab']")
+        document.querySelector("form button[class='chakra-button css-mx6vab']")
+        document.querySelector("form > button[class='chakra-button css-mx6vab']")
+    </script>
+</body>
+
+</html>
